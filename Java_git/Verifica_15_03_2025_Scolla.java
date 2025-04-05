@@ -9,6 +9,7 @@ import java.awt.event.KeyEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JButton;
+import javax.swing.JLabel;
 
 public class Verifica_15_03_2025_Scolla {
 
@@ -99,6 +100,18 @@ public class Verifica_15_03_2025_Scolla {
         });
         btn_esci.setBounds(370, 211, 85, 21);
         frame.getContentPane().add(btn_esci);
+        
+        JLabel lblNewLabel = new JLabel("Seleziona mezzo");
+        lblNewLabel.setBounds(42, 48, 96, 13);
+        frame.getContentPane().add(lblNewLabel);
+        
+        JLabel lblOreDiSosta = new JLabel("Ore di sosta");
+        lblOreDiSosta.setBounds(42, 152, 96, 13);
+        frame.getContentPane().add(lblOreDiSosta);
+        
+        JLabel lblTotaleDaPagare = new JLabel("totale da pagare");
+        lblTotaleDaPagare.setBounds(352, 152, 96, 13);
+        frame.getContentPane().add(lblTotaleDaPagare);
     }
 
     public void Sconto() {
